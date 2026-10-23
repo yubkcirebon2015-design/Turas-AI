@@ -1,0 +1,6 @@
+{
+  "name": "Maktabah Ahlu Sunnah",
+  "description": "Perpustakaan Digital Akidah Islam Berdasarkan Al-Qur'an dan Sunnah yang Sahih. Dikembangkan oleh Jundi Abdul Syahid, S.Pd. (Orang Dalam Genetik Jawa).",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

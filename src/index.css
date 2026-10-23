@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-emerald-primary: #064e3b;
+    --color-emerald-light: #047857;
+    --color-gold-accent: #d97706;
+    --color-gold-light: #f59e0b;
+    --color-ivory-bg: #faf8f5;
+  }
+
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+
+  .font-arabic {
+    font-family: 'Amiri', 'Scheherazade New', 'Traditional Arabic', serif;
+    direction: rtl;
+    line-height: 2.2;
+    text-align: right;
+  }
+
+  .font-display {
+    font-family: 'Cinzel', 'Plus Jakarta Sans', serif;
+  }
+}
+
+/* Islamic Geometric decorative styling */
+.islamic-border {
+  border-image: linear-gradient(to right, #047857, #d97706, #047857) 1;
+}
+
+/* Smooth reading scroll */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Print layout optimizations */
+@media print {
+  nav, footer, .no-print, button {
+    display: none !important;
+  }
+  body {
+    background: white !important;
+    color: black !important;
+  }
+  .print-only {
+    display: block !important;
+  }
+}
